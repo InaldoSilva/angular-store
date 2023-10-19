@@ -1,0 +1,46 @@
+.container__big-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.big-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  height: 380px;
+  border: solid 1px #7809A4;
+  border-radius: 5px;
+}
+
+.big-card:hover {
+  box-shadow: 0 0 20px #7809A4;
+}
+
+.big-card__title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #7809A4;
+}
+
+.big-card__img {
+  border-radius: 5px;
+}
+
+.big-card__text > a , p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #7809A4;
+  text-decoration: none;
+}
+
+.big-card__text > a, p:hover {
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.preco {
+  font-weight: bolder;
+}
