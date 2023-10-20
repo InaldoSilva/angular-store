@@ -3,7 +3,8 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 40px;
+  gap: 50px;
 }
 
 .big-card {
@@ -23,7 +24,8 @@
 
 .big-card__title {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #7809A4;
+  color: aliceblue;
+  padding-bottom: 10px;
 }
 
 .big-card__img {
@@ -32,13 +34,13 @@
 
 .big-card__text > a , p{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #7809A4;
+  color: aliceblue;
   text-decoration: none;
 }
 
 .big-card__text > a, p:hover {
   cursor: pointer;
-  color: aliceblue;
+  color: #7809A4;
 }
 
 .preco {
